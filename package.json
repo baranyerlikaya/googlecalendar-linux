@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "electron-forge start",
+    "start": "ELECTRON_DISABLE_SANDBOX=1 electron-forge start",
     "build": "electron-builder",
     "package": "electron-forge package",
     "make": "electron-forge make"
@@ -25,12 +25,15 @@
         "AppImage"
       ],
       "maintainer": "Baran Yerlikaya <baranyerlikayaa@gmail.com>",
-      "icon": "google-calendar.png"
+      "icon": "assets/icons/512x512.png"
     },
     "electronVersion": "25.0.0"
   },
   "devDependencies": {
     "@electron-forge/cli": "^7.5.0",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.5.0",
+    "@electron-forge/plugin-fuses": "^7.5.0",
+    "electron": "^25.0.0",
     "electron-builder": "^25.1.8"
   }
 }
