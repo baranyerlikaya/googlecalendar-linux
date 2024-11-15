@@ -1,0 +1,32 @@
+{
+  "name": "gcalendar-linux",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "build": "electron-builder",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "author": {
+    "name": "Baran Yerlikaya",
+    "email": "baranyerlikayaa@gmail.com"
+  },
+  "license": "MIT",
+  "description": "Google Calendar desktop application for Linux",
+  "homepage": "https://github.com/baranyerlikaya/googlecalendar-linux",
+  "build": {
+    "appId": "com.brnyrlk.googlecalendar",
+    "productName": "Google Calendar",
+    "linux": {
+      "category": "Utility",
+      "target": [
+        "deb",
+        "AppImage"
+      ],
+      "maintainer": "Baran Yerlikaya <baranyerlikayaa@gmail.com>",
+      "icon": "google-calendar.png"
+    },
+    "electronVersion": "25.0.0"
+  }
+}
