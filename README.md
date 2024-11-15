@@ -1,6 +1,6 @@
 # Google Calendar Linux Desktop Application
 
-![Showcase]([Isolated.png](https://i.ibb.co/GJ6WHzb/image.png) "Showcase")
+![Showcase](https://i.ibb.co/GJ6WHzb/image.png)
 
 **ENGLISH**
 
