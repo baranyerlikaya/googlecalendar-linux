@@ -9,54 +9,37 @@ This project provides a simple, lightweight desktop application for accessing Go
 
 ### Requirements
 - Linux (Ubuntu or other Debian-based distributions recommended)
-- Installed Docker (for building)
 
 ### Steps
-1. Download the `.deb` or `.AppImage` file from the `dist/` folder.
+1. Download the `.deb` or `.AppImage` file from the Releases page.
 2. To install the `.deb` file, run the following command:
 
    ```bash
    sudo dpkg -i dist/gcalendar-linux_1.0.0_amd64.deb
    ```
 
-3. For the `.AppImage` file, make it executable and run:
-
-   ```bash
-   chmod +x dist/Google\ Calendar-1.0.0.AppImage
-   ./dist/Google\ Calendar-1.0.0.AppImage
-   ```
+3. For the `.AppImage` file, just click it.
 
 ## Usage
-After installation, you can find the application in your applications menu as "Google Calendar." Simply open and enjoy a native desktop experience for Google Calendar.
+finished.
 
 ---
 
 **TÜRKÇE**
 
 ## Genel Bakış
-Bu proje, Google Takvim'i Linux'ta erişilebilir bir masaüstü uygulaması olarak sunar. Electron ile oluşturulmuştur ve `.deb` ile `.AppImage` formatlarını destekler.
-
-## Kurulum
+Bu proje ile Google Takvim uygulamasını kolayca bilgisayarınıza kurabilirsiniz (`.deb` ile `.AppImage` formatlarını destekliyor.)
 
 ### Gereksinimler
 - Linux (Ubuntu veya diğer Debian tabanlı dağıtımlar önerilir)
-- Docker kurulu (inşa işlemi için)
 
-### Adımlar
-1. `dist/` klasöründen `.deb` veya `.AppImage` dosyasını indirin.
-2. `.deb` dosyasını kurmak için şu komutu çalıştırın:
-
-   ```bash
-   sudo dpkg -i dist/gcalendar-linux_1.0.0_amd64.deb
-   ```
-
-3. `.AppImage` dosyasını çalıştırmak için çalıştırılabilir hale getirin ve şu komutu çalıştırın:
+## Kurulum
+1. Releases kısmından `.deb` veya `.AppImage` dosyasını indirin (`.AppImage` dosyaları üzerine tıklanarak çalıştırılabilir)
+2. `.deb` dosyasını kurmak için şu komutu (belirli dağıtımlarda üstüne tıklamak yeterli) çalıştırın:
 
    ```bash
-   chmod +x dist/Google\ Calendar-1.0.0.AppImage
-   ./dist/Google\ Calendar-1.0.0.AppImage
+   sudo dpkg -i gcalendar-linux_1.0.0_amd64.deb
    ```
-
 ## Kullanım
-Kurulumdan sonra uygulamayı "Google Calendar" olarak uygulama menünüzde bulabilirsiniz. Açın ve Google Takvim'i masaüstü uygulaması olarak kullanmaya başlayın.
+ve bitti. keyifle kullan
 
