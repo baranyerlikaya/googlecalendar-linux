@@ -28,5 +28,9 @@
       "icon": "google-calendar.png"
     },
     "electronVersion": "25.0.0"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^7.5.0",
+    "electron-builder": "^25.1.8"
   }
 }
