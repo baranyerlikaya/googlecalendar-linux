@@ -1,6 +1,6 @@
 # Google Calendar Linux Desktop Application
 
-![Showcase](https://i.ibb.co/GJ6WHzb/image.png)
+![Showcase](https://i.ibb.co/8YvTgXB/image.png)
 
 **ENGLISH**
 
